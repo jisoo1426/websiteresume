@@ -1,0 +1,22 @@
+{
+  "name": "resume_portfolio",
+  "version": "1.0.0",
+  "description": "Resume Portfolio",
+  "main": "index.js",
+  "homepage": "https://jooeemin.github.io/Resume_Portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "JoeMin",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.11.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JooeeMin/Resume_Portfolio.git"
+  }
+}
